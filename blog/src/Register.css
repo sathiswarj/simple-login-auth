@@ -1,0 +1,42 @@
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+
+  body{
+    background-image: url('bg.jpg');
+  }
+  
+  .container-fluid {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .card {
+    background: #433D8B;
+    width: 100%;
+    max-width: 380px;
+    padding: 44px 20px 81px 19px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 4px rgba(0, 0, 0, 0.2);
+}
+.account {
+  display: flex;
+  justify-content: center;
+  font-size: 14px;
+}
+ input[type=submit] {
+    cursor: pointer;
+    width: 100%;
+}
+
+form {
+  margin-top: 27px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  margin-top: 29px;
+}
